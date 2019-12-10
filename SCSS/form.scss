@@ -1,0 +1,147 @@
+@import "variables";
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.myself{
+    padding: 2%;
+
+background: linear-gradient(120deg,
+#1586ea,
+#5d1cee);
+
+color:
+white;
+}
+
+.myself_dark-mode{
+ 
+    color:transparent;
+      -webkit-background-clip: text;
+  background-clip: text;
+    
+}
+.what-i-do{
+    font-size: 7vw;
+}
+
+.form-title{
+    text-align: center;
+color:
+transparent;
+
+-webkit-background-clip: text;
+
+background-clip: text;
+
+background-image: linear-gradient(90deg,
+#11bfc8,#ff0cac);
+}
+
+
+
+.form-container_dark-mode{
+    background: $dark-background;
+}
+button{
+    background: 0;
+    border: 0;
+    box-shadow: 0;
+    
+}
+button{
+    background: linear-gradient(120deg, #1586ea, #5d1cee);
+    margin: 6%;
+    grid-column: 1/3;
+}
+.button-submit{
+    margin: auto;
+}
+.form-subtitle{
+    font-weight: 600;
+    color: $black;
+    font-size: $Small;
+    margin: 1%;
+}
+
+form {
+    display: grid;
+    align-items: baseline;
+    justify-items: center;
+    grid-template-columns: 1fr 2fr;
+    padding: 3% 5%;
+}
+
+.form-section {
+
+    //margin: 3%;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.form-section_name {
+    margin-top: 5%;
+}
+
+.form-section_message {
+    width: 85%;
+    height: 100%;
+    grid-column: 2;
+    grid-row: 1/3;
+
+}
+
+.input {
+    padding: 3%;
+    height: 100%;
+    background: #f3f3f9;
+    border: 0;
+    //margin: 2%;
+    //width: 80%;
+    color: $gray-text;
+    border: 3px solid #cfd5e8;
+    border-radius: 15px;
+    font-size: $Medium;
+
+}
+
+.input_dark-mode {
+    background: #000;
+    border: 3px solid #434d64;
+    color: white;
+}
+
+
+.form-subtitle_dark-mode {
+    color: $gray-text;
+}
+
+.input:focus {
+    border: 3px solid $links-color;
+    transition: .1s ease-in;
+}
+
+.form-button {
+    margin: 5%;
+    grid-column: 1/3;
+    padding: 1% 4%;
+    border-radius: 3px;
+    color:
+        white;
+}
+
+.gradient-line {
+    background: $blue-gradient;
+}
+
+
+.icons-container {
+    padding: 1% 0;
+}
+
+.icon {
+    font-size: 3vw;
+
+}
