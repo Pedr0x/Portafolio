@@ -1,0 +1,33 @@
+
+.item0{
+    background: linear-gradient(120deg, 
+#1586ea,
+#5d1cee);
+color:
+white;
+}
+
+.item1{
+
+background: url(media/pokedex.JPG),linear-gradient(#711C1F80,#E33D3680);
+    background: url(media/pokedex.JPG),linear-gradient(
+#11574980,#E33D3680);
+}
+
+
+.item2{
+
+background:url("media/template.JPG"), linear-gradient(#004dab80,#06092880);
+}
+
+
+.item3{
+    background: url("media/idles.JPG");
+    /*background-color: darken($blue,25%) */
+    background-color: #140eee;
+
+}
+
+.item4{
+background: url("media/openSans.JPG"),linear-gradient(#d7d7d780, #d7d7d780, #0000ff80);
+}

@@ -1,0 +1,263 @@
+<html>
+<head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">        
+<title> Mi portafolio</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+  <link  rel="stylesheet" href="reset.css">
+    <link  rel="stylesheet" href="SCSS/portafolio.css">
+    <link rel="stylesheet" href="item-backgrounds.css">
+</head> 
+    <body>
+    <header>
+   
+       
+              
+            <div class="hader-item_background header-item">          
+<div class="background-button" onclick="toggleDarkMode()" visible>  
+<i class="material-icons"> 
+brightness_2
+</i
+ >    
+    </div>  <a class="header-indicator background-indicator change"> Cambiar fondo</a>   
+  </div>       
+    <div class="header-flag-container header-item" onclick="changeLang()">
+        
+    <img src="united-states.svg" class="header-flag visible" >
+         <a class="header-indicator lang-indicator change"> Change Language</a>   
+
+
+    </div>
+                     <div class="header-item">
+                         <a href="#" class="fa fa-github social-icon banner-fa icon"></a>            
+  </div>
+        
+    </header>
+    <div class="super-container">
+<div class="title-container">   
+  <h1 class=" main-title title visible"> Mi Portafolio</h1>
+  </div>
+  
+  
+   <div class="main-container">
+   <div class="item item0">
+    
+    <h1 class="item-title_closed">
+    Sobre Mí
+</h1>    
+  <div id="item-text_about" class="item-text">
+      <div class="item0-main-text">
+    <h4 class="my-name"> Mi nombre es Pedro Joel Rodríguez</h4>          
+<h1 class="item0-title_open">  Hago páginas web</h1>
+         <p class="item0-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  
+      <div class="about-list">
+          
+              <div class="about-list-item">Maquetación</div>
+          <div class="about-list-item">Branding</div>
+          <div class="about-list-item">UI/UX</div> 
+           </div> </div>
+           
+       <div class="form-container">
+<h2 class="form-title"> Contáctame</h2>          
+                <form name="contact" data-netlify="true"> 
+                                  <div class="form-section"> 
+                                       <label class="form-subtitle form-subtitle_email"> Tu correo</label>
+
+                                      <input name="email" placeholder="Tu email" type="email" class="input input_email">  </div>
+                                      <div class="form-section form-section_name">
+                                          
+                                        <label class="form-subtitle form-subtitle_name"> Tu nombre</label> 
+                                          <input name="name" type="text" placeholder="Tu nombre aquí" class="input input_name">
+                                      </div>
+                   <div class="form-section form-section_message">
+                   <label class="form-subtitle form-subtitle_message"> Tu mensaje</label>
+                       <textarea name="message" type="text" placeholder="Tu mensaje" class="input input_message">  </textarea>
+                                              
+                       </div>
+      
+ <button type="submit"  class="button_submit form-button z-depth-2" type="submit">
+<i class="material-icons form-arrow">
+arrow_forward
+     </i>                </button>
+                </form> 
+       </div>
+      
+       <div class="item0-footer">
+         <a> Diseñado con amor</a>  
+           
+       </div>
+     
+  </div>
+   </div>
+   
+    <div onClick="itemGrow()" class="item item1">     
+<h1 class="item-title_closed">
+    Pokedex
+</h1>    
+         <div class="item-text">
+         <a class="item-title item1-title visible" href="https://pedrospokedex.netlify.com"> Pokedex</a>
+         <p id="item1-text" class="item1-text item-paragraph visible">Pokédex desarrollado con JavaScript Asícrono y PokéAPI. Diseñado siguiendo bases del Skeuomorphic Design.  </p>
+         
+     </div>
+
+         </div>
+         
+         
+           <div  onClick="itemGrow()"class="item item2">     
+<h1 class="item-title_closed">
+    PedroLab
+               </h1>     <div class="item-text">
+         <a class="item-title item2-title visible" href="https://pedrolab.netlify.com"> Concepto de estudio de diseño digital</a>
+         <p class="item2-text item-paragraph visible"> Creación de una marca e identidad visual para una agencia de desarrollo web y estudio creativo. Desarrollada con SCSS y Figma. Diseñada usando las bases del Diseño Material de Google               </p> 
+
+   <a class="item2-styleguide" href="https://company-175879.frontify.com/d/fvKkQ62664Hw">
+             Guía de estilos disponible aquí</a>
+             
+         
+         
+     </div>
+
+         </div>
+         
+           <div  onClick="itemGrow()" class="item item3">     
+<h1 class="item-title_closed">
+IDLES               </h1>        <div class="item-text">
+         <a class="item-title item3-title visible" href="https://idles.netlify.com"> IDLES</a>
+         <p class="item3-text item-paragraph visible">Concepto de página de banda de rock IDLES.  Desarrollado con Materialize y   SCSS siguiendo las bases del diseño plano </p>
+         
+         
+     </div>
+
+         </div>
+         
+         
+         
+       <div  onClick="itemGrow()" class="item item4">     
+<h1 class="item-title_closed">
+Open Sans               </h1>   
+                    <div class="item-text"> 
+         <a class="item-title item4-title visible" href="https://open-sans.netlify.com"> Open Sans</a>
+         <p class="item4-text item-paragraph visible">Página web minimalista para Open Sans, una familia de fuentes tipográficas Open Source diseñada por Steve Matteson.</p>
+         
+         
+     </div>
+
+         </div>
+         <div class="item item_form">
+              <h1 class="item-title_closed">
+Contact Me               </h1>   
+              <div class="form-item_open"> 
+               <div class="form-container">
+<h2 class="form-title"> Contáctame</h2>          
+                <form name="contact" data-netlify="true"> 
+                                  <div class="form-section"> 
+                                       <label class="form-subtitle form-subtitle_email"> Tu correo</label>
+
+                                      <input name="email" placeholder="Tu email" type="email" class="input input_email">  </div>
+                                      <div class="form-section form-section_name">
+                                          
+                                        <label class="form-subtitle form-subtitle_name"> Tu nombre</label> 
+                                          <input name="name" type="text" placeholder="Tu nombre aquí" class="input input_name">
+                                      </div>
+                   <div class="form-section form-section_message">
+                   <label class="form-subtitle form-subtitle_message"> Tu mensaje</label>
+                       <textarea name="message" type="text" placeholder="Tu mensaje" class="input input_message">  </textarea>
+                                              
+                       </div>
+      
+ <button type="submit"  class="button_submit form-button z-depth-2" type="submit">
+<i class="material-icons form-arrow">
+arrow_forward
+     </i>                </button>
+                </form> 
+       </div> 
+            <div class="form-text">
+                <p>Mandame un mensaje. Siempre estoy buscando nuevas oportunidades de aprender</p>
+<a>No dudes en contactarme si</a>   
+             <li>
+                 <ul>Eres parte de una agencia y buscas un desarrollador web Front-End </ul>
+                 <ul>Buscas crear una página web y marca visual para tu empresa  </ul>
+                 <ul></ul>
+             </li>       
+              </div>
+             </div> </div>
+             
+             
+    
+
+    
+    
+      
+        </div>
+      
+          </div>
+          <div class="contact"> 
+          <div class="myself">
+              
+<h1 class="what-i-do"> Hago sitios web  </h1>        </div>  
+       
+       
+       <div class="form-container">
+<h2 class="form-title"> Contáctame</h2>          
+                <form name="contact" data-netlify="true"> 
+                                  <div class="form-section"> 
+                                       <label class="form-subtitle form-subtitle_email"> Tu correo</label>
+
+                                      <input name="email" placeholder="Tu email" type="email" class="input input_email">  </div>
+                                      <div class="form-section form-section_name">
+                                          
+                                        <label class="form-subtitle form-subtitle_name"> Tu nombre</label> 
+                                          <input name="name" type="text" placeholder="Tu nombre aquí" class="input input_name">
+                                      </div>
+                   <div class="form-section form-section_message">
+                   <label class="form-subtitle form-subtitle_message"> Tu mensaje</label>
+                       <textarea name="message" type="text" placeholder="Tu mensaje" class="input input_message">  </textarea>
+                                              
+                       </div>
+      
+ <button type="submit"  class="button_submit form-button z-depth-2" type="submit">
+<i class="material-icons form-arrow">
+arrow_forward
+     </i>                </button>
+                </form> 
+       </div>
+       </div>
+        <div class="about-container"> 
+        
+        <div class="about-text"> 
+        
+        <h2 class="about-title"> Pedro Joel Rodríguez</h2>
+         
+        <p class="about-text-desc visible">Aprecio que visites mi portafolio. </p>
+        
+        
+        
+        </div>
+        
+        
+        
+        </div>  
+        
+ 
+        
+    </body>
+    
+    
+    
+    
+    <script src="JavaScript/Language.js">
+    
+    </script>
+    
+    <script src="JavaScript/flex.js">
+    
+    
+        
+    </script>
+    
+    </html>

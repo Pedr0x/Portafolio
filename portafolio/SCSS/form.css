@@ -1,0 +1,120 @@
+/*$0.889vw
+
+:0.79vw
+
+$XXSmall:0.702vw*/
+/*
+$XXSmall: 0.512em;     //8px
+$XSmall: 0.64em;    //10px
+$Small: 0.8em;     //12px
+$Medium-Small:1em; //16px
+$Medium: 1.25em;  //20px
+$Medium-Big:1.56em; //25px
+$Big-Small: 1.95em; // 31px
+$Big: 2.44em;  //39px
+$XBig:3.05em;  //48px */
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.myself {
+  padding: 2%;
+  background: linear-gradient(120deg, #1586ea, #5d1cee);
+  color: white; }
+
+.myself_dark-mode {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.what-i-do {
+  font-size: 7vw; }
+
+.form-title {
+  text-align: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #11bfc8, #ff0cac); }
+
+.form-container_dark-mode {
+  background: #121212; }
+
+button {
+  background: 0;
+  border: 0;
+  box-shadow: 0; }
+
+button {
+  background: linear-gradient(120deg, #1586ea, #5d1cee);
+  margin: 6%;
+  grid-column: 1/3; }
+
+.button-submit {
+  margin: auto; }
+
+.form-subtitle {
+  font-weight: 600;
+  color: #222;
+  font-size: 1.125vw;
+  margin: 1%; }
+
+form {
+  display: grid;
+  align-items: baseline;
+  justify-items: center;
+  grid-template-columns: 1fr 2fr;
+  padding: 3% 5%; }
+
+.form-section {
+  display: flex;
+  flex-direction: column; }
+
+.form-section_name {
+  margin-top: 5%; }
+
+.form-section_message {
+  width: 85%;
+  height: 100%;
+  grid-column: 2;
+  grid-row: 1/3; }
+
+.input {
+  padding: 3%;
+  height: 100%;
+  background: #f3f3f9;
+  border: 0;
+  color: #7b7b9f;
+  border: 3px solid #cfd5e8;
+  border-radius: 15px;
+  font-size: 1.424vw; }
+
+.input_dark-mode {
+  background: #000;
+  border: 3px solid #434d64;
+  color: white; }
+
+.form-subtitle_dark-mode {
+  color: #7b7b9f; }
+
+.input:focus {
+  border: 3px solid #0189f2;
+  transition: .1s ease-in; }
+
+.form-button {
+  margin: 5%;
+  grid-column: 1/3;
+  padding: 1% 4%;
+  border-radius: 3px;
+  color: white; }
+
+.gradient-line {
+  background: linear-gradient(120deg, #1586ea, #5d1cee); }
+
+.icons-container {
+  padding: 1% 0; }
+
+.icon {
+  font-size: 3vw; }
+
+/*# sourceMappingURL=form.css.map */
