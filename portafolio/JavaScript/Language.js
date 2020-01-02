@@ -6,6 +6,9 @@ const visible = document.querySelectorAll(".visible");
 const flag = document.querySelector(".header-flag");
 
 const title = document.querySelector(".title");
+const itemText = Array.from(document.querySelectorAll(".item-text"));
+
+
 const  item1 = document.querySelector(".item1");
 const item1Title = document.querySelector(".item1-title");
 const item1Text = document.querySelector("#item1-text");
@@ -383,6 +386,9 @@ function toggleBackground(){
     superBackground.classList.toggle("super_dark-background");
     formContainer.classList.toggle("form-container_dark-mode");
     myself.classList.toggle("myself_dark-mode");
+    itemText.forEach((item,index) => {
+        itemText[index].classList.toggle("item-text_dark-mode");
+    });
 };
 
 function toggleText () {

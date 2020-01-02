@@ -227,7 +227,8 @@ header {
   align-items: center;
   justify-content: space-around;
   top: 0px;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
 
 .header-flag {
   height: 2vw;
@@ -441,7 +442,8 @@ header {
   margin: 5% 0 0 0;
   background: 0;
   box-shadow: 0 0 0 0;
-  padding: 0; }
+  padding: 0;
+  background: linear-gradient(120deg, #1586ea, #5d1cee); }
 
 .icons-container {
   padding: 1% 0;
@@ -466,6 +468,9 @@ header {
 .form-container_dark-mode {
   background: #1f2328;
   transition: 0.2s; }
+
+.item-text_dark-mode {
+  background: black; }
 
 @media only screen and (max-width: 825px) {
   .main-title {
